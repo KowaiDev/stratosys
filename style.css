@@ -159,3 +159,15 @@ h4 {
     user-select: none;
     font-weight: normal;
 }
+
+[loading] {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    transition-duration: 500ms;
+}
+
+[loading].hide {
+    opacity: 0;
+}
